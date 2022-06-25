@@ -1,0 +1,33 @@
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to left, rgb(17, 24, 39), rgb(75, 85, 99)) ;
+    text-align: center;
+    padding:0 50px;
+}
+.logo{
+    width: 70px;
+    border-radius: 50% ;
+    /* padding: 10px; */
+    margin: auto 0;
+
+}
+.list{
+display: flex;
+list-style:none;
+}
+.list li{
+  padding: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: antiquewhite;
+  font-weight: bold;
+}
+.list li:hover {
+    color: coral;
+}
+
+
+  
+

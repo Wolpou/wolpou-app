@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    position: relative;
+    
+}
+.container img{
+    width: 100%;
+}
+.textContainer{
+    position:absolute;
+    top: 200px;
+    left: 80px;
+
+}
+.textContainer h1{
+    font-size: 7rem;
+    color:#696969;
+    text-shadow: 3px 5px black;
+    
+}
+.textContainer p{
+    font-size: 4rem;
+    color:#696969;
+    text-shadow: 2px 2px black;
+
+}
+.span{
+    font-size: 4rem;
+    color:#30c0e4;
+    text-shadow: 2px 3px black;
+    font-weight: bold;
+    
+        -webkit-animation: span 0.65s linear both ;
+                animation: span 0.65s linear both ;
+       
+}
+
+ @-webkit-keyframes span {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes span {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  
