@@ -14,13 +14,13 @@
 }
 .textContainer h1{
     font-size: 7rem;
-    color:#696969;
+    color: coral;
     text-shadow: 3px 5px black;
     
 }
 .textContainer p{
     font-size: 4rem;
-    color:#696969;
+    color:blueviolet;
     text-shadow: 2px 2px black;
 
 }
